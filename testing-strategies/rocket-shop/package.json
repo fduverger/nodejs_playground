@@ -1,0 +1,19 @@
+{
+  "name": "rocket-shop",
+  "version": "1.0.0",
+  "description": "A crowd-sourced subcription tool",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "2.22.2"
+  },
+  "devDependencies": {
+    "coffeescript": "2.3.1",
+    "mocha": "5.2.0",
+    "sinon": "6.1.5"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --require coffeescript/register test/**/*.{js,coffee}"
+  },
+  "author": "",
+  "license": "ISC"
+}
